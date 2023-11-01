@@ -1,0 +1,256 @@
+﻿@model IEnumerable<GestaodeVoluntarios.UI.Models.VoluntarioEstudos>
+<div class="col-sm-12">
+    <input type="hidden" value="@ViewBag.PerfilUsuario" id="hdnPerfil" />
+    <input type="hidden" value="@ViewBag.TipoVoluntario" id="hdnTipoVoluntario" />
+    <input type="hidden" value="@ViewBag.VoluntarioId" id="hdnVoluntarioId" />
+
+    <div class="page-header card">
+        <div class="card-block">
+            <h5 class="m-b-10">Voluntário Estudos</h5>
+            <ul class="breadcrumb-title b-t-default p-t-10">
+                <li class="breadcrumb-item">
+                    <a href="\Home\index"> <i class="fa fa-home"></i> </a>
+                </li>
+                <li class="breadcrumb-item">
+                    @if (ViewBag.TipoVoluntario == "M")
+                    {
+                        <a href="\VoluntariosMasculino\index">Voluntários Masculino</a>
+                    }
+                    else
+                    {
+                        <a href="\VoluntariosFeminino\index">Voluntários Femininos</a>
+                    }
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card-block">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <label>Registro</label>
+                                        <input id="txtVoluntarioId" value="@ViewData["CadastroVoluntarioId"]" readonly class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="form-group">
+                                        <label>Nome</label>
+                                        <input id="txtNome" value="@ViewData["CadastroNome"]" readonly class="form-control" type="text" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Estudo</label>
+                                        @Html.DropDownList("Estudo", ViewData["Estudos"] as SelectList, "---Selecione ---", new { @class = "form-control form-control-bold" })
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Data do Estudo</label>
+                                        <input class="form-control" id="dtCadastro" type="date" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5">
+                                    <div class="form-group">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Descrição</label>
+                                        <textarea id="txtDescricao" rows="5" cols="5" class="form-control" placeholder="Descrição"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <a href="#" class="btn btn-block btn-primary" id="SalvarEstudos">Salvar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="card-block">
+                            <div class="dt-responsive table-responsive">
+                                <table id="VoluntariosCadastrados" class="table table-striped table-bordered nowrap">
+                                    <thead>
+                                        <tr>
+                                            <th>Estudo</th>
+                                            <th>Descrição</th>
+                                            <th>Data Estudo</th>
+                                            @if (ViewBag.PerfilUsuario == "Admin")
+                                            {
+                                                <th></th>
+                                            }
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr id="@item.Id">
+                                                <td data-nome="@item.NomeEstudo">@Html.DisplayFor(modelItem => item.NomeEstudo)</td>
+                                                <td data-nome="@item.Descricao">@Html.DisplayFor(modelItem => item.Descricao)</td>
+                                                <td data-nome="@item.DataEstudo">@item.DataEstudo.Value.ToString("dd/MM/yyyy")</td>
+                                                @if (ViewBag.PerfilUsuario == "Admin")
+                                                {
+                                                    var dataEstudo = DateTime.Compare(Convert.ToDateTime(item.DataEstudo), DateTime.Now.Date);
+                                                    if (dataEstudo >= 0)
+                                                    {
+                                                        <td align="center"><a href="#" onclick="Deletar(@item.Id)"><i class="ion-trash-b" title="Deletar"></i></a></td>
+                                                    }
+                                                    else
+                                                    {
+                                                        <td align="center"><i class="fa fa-history" aria-hidden="true" title="Histórico"></i></td>
+                                                    }
+                                                }
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var hoje = new Date();
+        $('#dtCadastro').val(formatar_data(hoje));
+
+        var perfil = $('#hdnPerfil').val();
+        if (perfil == 'Consulta') {
+            $("input").prop('disabled', true);
+            $("select").prop('disabled', true);
+            $("textarea").prop('disabled', true);
+            $('#SalvarEstudos').css('visibility', 'hidden');
+        }
+    });
+
+    function formatar_data(data) {
+        var dia = ('0' + data.getDate()).slice(-2);
+        var mes = ('0' + (data.getMonth() + 1)).slice(-2);
+        return data.getFullYear() + "-" + mes + "-" + dia;
+    }
+
+
+    $("#SalvarEstudos").click(function () {
+
+        var validado = true;
+        var estudo = $("#Estudo").val();
+
+        if (estudo == "") {
+            swal("Oops", "Você precisa selecionar um estudo!", "warning");
+            validado = false;
+        }
+        if (validado) {
+            dados =
+            {
+                VoluntarioId: parseInt($("#txtVoluntarioId").val()),
+                idVoluntarioEstudo: parseInt($("#hdnVoluntarioId").val()),
+                EstudoId: parseInt($("#Estudo").val()),
+                NomeEstudo: $("#Estudo option:selected").text(),
+                NomeVoluntario: $("#txtNome").val(),
+                Descricao: $("#txtDescricao").val(),
+                TipoVoluntario: $("#hdnTipoVoluntario").val(),
+                DataEstudo: $("#dtCadastro").val(),
+            };
+
+            $.ajax({
+                type: "POST",
+                url: "/VoluntariosEstudos/CreateEstudo",
+                data: dados,
+                datatype: "html",
+                contentType: 'application/x-www-form-urlencoded',
+                success: function (data) {
+                    if (data == "OK") {
+                        swal({
+                            title: "Cadastrado!",
+                            text: "Estudo cadastrado com sucesso!",
+                            type: "success",
+                        },
+                            function () {
+                                window.location.href = '/VoluntariosEstudos/Index/?Id=' + dados.idVoluntarioEstudo + "&sexo=" + dados.TipoVoluntario;
+                            }
+                        );
+                    }
+                    if (data == "JAEXISTE") {
+                        swal({
+                            title: "Oops!",
+                            text: "Este estudo já está cadastrado, selecione outro estudo!",
+                            type: "warning"
+                        });
+                    }
+                    if (data == "DATAMENOR") {
+                        swal({
+                            title: "Oops!",
+                            text: "A data de estudo não pode ser menor que a data de hoje!",
+                            type: "warning"
+                        });
+                    }
+                },
+                error: function (data) {
+                    swal("Oops", "Não foi possível conectar ao servidor!", "error");
+                }
+            });
+        }
+    })
+
+    function Deletar(id) {
+
+        swal({
+            title: "Você tem certeza?",
+            text: "Você tem certeza que deseja deletar este estudo?",
+            type: "warning",
+            showCancelButton: true,
+            closeOnConfirm: false,
+            confirmButtonText: "Sim, deletar!",
+            confirmButtonColor: "#ec6c62"
+        },
+            function () {
+                $.ajax({
+                    url: "/VoluntariosEstudos/Delete/" + id,
+                    data: id,
+                    type: "DELETE"
+                })
+                    .done(function (data) {
+                        sweetAlert
+                            ({
+                                title: "Deletado!",
+                                text: "Estudo deletado com sucesso!",
+                                type: "success"
+                            },
+                                function () {
+                                    window.location.reload();
+                                });
+                    })
+                    .error(function (data) {
+                        swal("Oops", "Não foi possível conectar ao servidor!", "error");
+                    });
+            });
+    }
+
+</script>
+
+
+
+

@@ -1,0 +1,416 @@
+﻿@model IEnumerable<GestaodeVoluntarios.UI.Models.Masculino.MasculinoCadastro>
+
+
+<div class="col-sm-12">
+    <div class="page-header card">
+        <div class="card-block">
+            @if (ViewBag.PerfilUsuario == "Admin")
+            {
+                <form>
+                    <button asp-action="Create" style="margin-top:-10px" class="btn btn-primary pull-right"><i class="icofont icofont-user-alt-3"></i>Novo Voluntário</button>
+                </form>
+            }
+            <h5 class="m-b-10">Usuários Cadastrados</h5>
+            <ul class="breadcrumb-title b-t-default p-t-10">
+                <li class="breadcrumb-item">
+                    <a href="\~"> <i class="fa fa-home"></i> </a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="\VoluntariosMasculino\index">Voluntário Masculino</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="page-header card">
+        <div class="card-block">
+            <fieldset class="border p-3">
+                <h4 class="sub-title">Filtros</h4>
+                <div class="form-group row">
+                    <div class="col-sm-2">
+                        <input type="number" min="0" max="100000" id="masculinoId" class="form-control" placeholder="Registro: ">
+                    </div>
+                    <div class="col-sm-2">
+                        <select id="cboClasseSocial" class="form-control form-control-bold">
+                            <option value="0">Selecione</option>
+                            <option value="A">A</option>
+                            <option value="B1">B1</option>
+                            <option value="B2">B2</option>
+                            <option value="C1">C1</option>
+                            <option value="C2">C2</option>
+                            <option value="D-E">D-E</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="number" min="0" max="100" id="idadeDe" class="form-control" placeholder="Idade De:">
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="number" min="0" max="100" id="idadeAte" class="form-control" placeholder="Idade Até:">
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" id="nome" class="form-control" placeholder="Busca por Nome">
+                    </div>
+                    <div class="col-sm-1">
+                        <button class="btn btn-danger btn-sm" type="button" id="FiltrarnoBackEnd">Filtrar</button>
+                    </div>
+                </div>
+            </fieldset>
+
+
+            <input type="text" id="myInput" style="display:none">
+            <div class="col-sm-12 col-md-12 col-xl-12">
+                <div id="alerta" class="alert alert-danger" style="display:none">
+                    <p><strong>Mensagem: </strong><code>Informações copiadas com sucesso!</code></p>
+                </div>
+            </div>
+
+
+            <div class="dt-responsive table-responsive">
+                <div class="page-header card">
+                    <div class="card-block">
+                        <div class="form-group row">
+
+                            <div class="col-sm-12">
+                                <input type="text" id="search" class="form-control" placeholder="Faça sua pesquisa aqui">
+                            </div>
+                        </div>
+                        <div class="dt-responsive table-responsive">
+                            <table id="tbMasculinoCadastro" class="table table-striped table-bordered nowrap">
+                                <thead>
+                                    <tr>
+                                        <th>Ação</th>
+                                        <th>Registro</th>
+                                        <th>Nome</th>
+                                        <th>Idade</th>
+                                        <th>Classe Social</th>
+                                        <th></th>
+                                        @if (ViewBag.PerfilUsuario == "Admin")
+                                        {
+                                            <th></th>
+                                            <th></th>
+                                        }
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody class="tbody"></tbody>
+                            </table>
+                        </div>
+                        @if (ViewBag.QuantidadedePaginas > 1)
+                        {
+                            <div id="paginador" class="row">
+                                <div class="col-md-12">
+                                    <nav aria-label="Page navigation">
+                                        <ul class="pagination">
+                                            <li class="page-item active"> <a class="page-link" href="#">1</a></li>
+                                            @for (int i = 2; i <= ViewBag.QuantidadedePaginas; i++)
+                                            {
+                                                <li class="page-item"> <a class="page-link" href="#">@i</a></li>
+
+                                            }
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/files/bower_components/jquery/js/jquery.min.js"></script>
+<script src="~/files/bower_components/jquery-ui/js/jquery-ui.min.js"></script>
+<script src="~/files/bower_components/sweetalert/js/sweetalert.min.js"></script>
+<script src="~/files/assets/js/modal.js"></script>
+<script src="~/files/assets/js/script.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $.ajax({
+            type: "POST",
+            url: "/VoluntariosMasculino/GrupoPagina",
+            data: 1,
+            datatype: "html",
+            contentType: 'application/x-www-form-urlencoded',
+            success: function (result) {
+                if (result != null) {
+                    var table = $('#tbMasculinoCadastro').find('tbody');
+                    table.empty();
+                    for (var i = 0; i < result.length; i++) {
+                        table.append(criar_linha_grid(result[i]));
+                    }
+                }
+            },
+            error: function () {
+                swal({
+                    title: "Dados não carregados!",
+                    text: "Não foi possível carregar os dados!",
+                    type: "warning",
+                });
+
+            }
+        });
+    })
+        .on('click', '.voluntariosEditar', function () {
+            var btn = $(this),
+                _id = btn[0].id;
+            window.location.href = '/VoluntariosMasculino/Edit/' + _id;
+        }
+        ).on('click', '.voluntariosEstudos', function () {
+            var btn = $(this),
+                _id = btn[0].id;
+            window.location.href = '/VoluntariosEstudos/Index/?Id=' + _id + "&sexo=M";
+        }
+        ).on('click', '.deletar', function () {
+            var btn = $(this),
+                _id = btn[0].id;
+            Deletar(_id);
+        }
+        ).on('click', '.desativar', function () {
+            var btn = $(this),
+                _id = btn[0].id;
+            Desativar(_id);
+
+        }
+        ).on('click', '.copiadados', function () {
+            var btn = $(this),
+                _id = btn[0].id;
+
+            CopiarDados(_id);
+        }
+        ).on('click', '.page-item', function () {
+            var btn = $(this),
+                pagina = btn.text();
+
+            dados = { NrPagina: pagina };
+
+            $.ajax({
+                type: "POST",
+                url: "/VoluntariosMasculino/GrupoPagina",
+                data: dados,
+                datatype: "html",
+                contentType: 'application/x-www-form-urlencoded',
+                success: function (result) {
+                    if (result != null) {
+                        var table = $('#tbMasculinoCadastro').find('tbody');
+                        table.empty();
+                        for (var i = 0; i < result.length; i++) {
+                            table.append(criar_linha_grid(result[i]));
+                        }
+                        btn.siblings().removeClass('active');
+                        btn.addClass('active');
+                    }
+                },
+                error: function () {
+                    alert("Nenhum registro encontrado!");
+                }
+            });
+        });
+
+    function CopiarDados(id) {
+        $("#tbMasculinoCadastro tbody tr").each(function (i, row) {
+            if (parseInt(id) == parseInt(row.id)) {
+                document.getElementById("myInput").style.display = "block";
+                $("#alerta").show();
+                var nome = $(":nth-child(3)", row).html();
+                var CadastroIdade = $(":nth-child(4)", row).html();
+                var classesocial = $(":nth-child(5)", row).html();
+                //var telcelular = $(":nth-child(6)", row).html();
+                //var telfixo = $(":nth-child(7)", row).html();
+                var textoparacopiar = nome + '; ' + CadastroIdade + '; ' + classesocial;
+                var copyText = document.getElementById("myInput");
+                copyText.value = textoparacopiar;
+                copyText.select();
+                copyText.setSelectionRange(0, 99999);
+                document.execCommand("copy");
+                document.getElementById("myInput").style.display = "none";
+                FecharDiv();
+            }
+        });
+    }
+
+    function Deletar(id) {
+
+        swal({
+            title: "Você tem certeza?",
+            text: "Você tem certeza que deseja excluir este voluntário?",
+            type: "warning",
+            showCancelButton: true,
+            closeOnConfirm: false,
+            confirmButtonText: "Sim, excluir!",
+            confirmButtonColor: "#ec6c62"
+        },
+            function () {
+                $.ajax({
+                    url: "/VoluntariosMasculino/Delete/" + id,
+                    data:
+                    {
+                        "OrderID": id
+                    },
+                    type: "DELETE"
+                })
+                    .done(function (data) {
+                        sweetAlert
+                            ({
+                                title: "Excluído!",
+                                text: "Voluntário excluído com sucesso!",
+                                type: "success"
+                            },
+                                function () {
+                                    window.location.href = '/VoluntariosMasculino/Index/';
+                                });
+                    })
+                    .error(function (data) {
+                        swal("Oops", "Não foi possível conectar ao servidor!", "error");
+                    });
+            });
+    }
+
+    function Desativar(id) {
+
+        swal({
+            title: "Você tem certeza?",
+            text: "Você tem certeza que deseja desativar este voluntário?",
+            type: "warning",
+            showCancelButton: true,
+            closeOnConfirm: false,
+            confirmButtonText: "Sim, desativar!",
+            confirmButtonColor: "#ec6c62"
+        },
+            function () {
+                $.ajax({
+                    url: "/VoluntariosMasculino/DesableItem/" + id,
+                    data:
+                    {
+                        "OrderID": id
+                    },
+                    type: "POST"
+                })
+                    .done(function (data) {
+                        sweetAlert
+                            ({
+                                title: "Desativado!",
+                                text: "Voluntário desativado com sucesso!",
+                                type: "success"
+                            },
+                                function () {
+                                    window.location.href = '/VoluntariosMasculino/Index/';
+                                });
+                    })
+                    .error(function (data) {
+                        swal("Oops", "Não foi possível conectar ao servidor!", "error");
+                    });
+            });
+    }
+
+    function FecharDiv() {
+        setTimeout(function () {
+            $("#alerta").hide();
+        }, 3000);
+    };
+
+    function criar_linha_grid(dados) {
+        var template = $('#templategridVoluntarioMasculino').html();
+        return Mustache.render(template, dados);
+    }
+
+    $("#search").keyup(function () {
+        var value = this.value.toLowerCase().trim();
+
+        $("table tr").each(function (index) {
+            if (!index) return;
+            $(this).find("td").each(function () {
+                var id = $(this).text().toLowerCase().trim();
+                var not_found = (id.indexOf(value) == -1);
+                $(this).closest('tr').toggle(!not_found);
+                return not_found;
+            });
+        });
+    });
+
+    $("#FiltrarnoBackEnd").click(function () {
+
+        dados =
+        {
+            ativo: true,
+            masculinoId: $("#masculinoId").val(),
+            classesocial: $("#cboClasseSocial option:selected").val(),
+            idadeDe: $("#idadeDe").val(),
+            idadeAte: $("#idadeAte").val(),
+            nome: $("#nome").val(),
+        };
+
+        if (dados.masculinoId == "" && dados.classesocial == "0" && dados.idadeDe == "" && dados.idadeAte == "" && dados.nome == "") {
+            swal({
+                title: "Filtro sem dados informados!",
+                text: "Informe os dados que deseja filtrar!",
+                type: "warning"
+            });
+            return null;
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "/VoluntariosMasculino/FiltrarnoBackEnd",
+            data: dados,
+            datatype: "html",
+            contentType: 'application/x-www-form-urlencoded',
+            success: function (result) {
+                if (result != null) {
+                    var table = $('#tbMasculinoCadastro').find('tbody');
+                    table.empty();
+
+                    for (var i = 0; i < result.length; i++) {
+                        table.append(criar_linha_grid(result[i]));
+                    }
+
+                    $('#paginador').hide();
+                }
+                else {
+                    swal({
+                        title: "Nenhum registro encontrado!",
+                        text: "Informe outros dados para realizar o filtro!",
+                        type: "warning"
+                    });
+
+                }
+            },
+            error: function () {
+                swal("Oops", "Não foi possível conectar ao servidor!", "error");
+            }
+        });
+    })
+
+</script>
+
+
+<script id="templategridVoluntarioMasculino" type="x-tmpl-mustache">
+    <tr id="{{ id }}">
+        <td><a href="#" id="{{ id }}" class="copiadados"><i class="ion-ios-photos-outline"></i></a></td>
+        <td>
+            {{ masculinoCadastroId  }}
+        </td>
+        <td>
+            {{ cadastroNome }}
+        </td>
+        <td>
+            {{ cadastroIdade }}
+        </td>
+        <td>
+            {{ cadastroClasseSocial }}
+        </td>
+        <td><a href="#" id="{{ id }}" class="voluntariosEstudos" data-toggle="tooltip" data-placement="top" title="Voluntários Estudos"><i class="ion-cube"></i></a></td>
+        @if (ViewBag.PerfilUsuario == "Admin")
+        {
+            <td><a href="#" id="{{ id }}" class="voluntariosEditar" data-toggle="tooltip" data-placement="top" title="Alterar Registro"><i class="icofont icofont-pencil-alt-2"></i></a></td>
+            <td><a href="#" id="{{ id }}" class="desativar" data-toggle="tooltip" data-placement="top" title="Desativar Registro"><i class="ion-close"></i></a></td>
+            <td><a href="#" id="{{ id }}" class="deletar" data-toggle="tooltip" data-placement="top" title="Excluir Registro"><i class="ion-trash-b"></i></a></td>
+        }
+        else
+        {
+            <td><a href="#" id="{{ id }}" class="voluntariosEditar" data-toggle="tooltip" data-placement="top" title="Consultar Registro"><i class="icofont icofont-search-alt-2"></i></a></td>
+        }
+    </tr>
+</script>

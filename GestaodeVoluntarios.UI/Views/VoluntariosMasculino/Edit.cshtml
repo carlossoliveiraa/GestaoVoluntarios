@@ -1,0 +1,1595 @@
+﻿@model GestaodeVoluntarios.UI.Models.Masculino.MasculinoCadastro
+    <style>
+
+        legend {
+            background-color: #EFEFEF;
+            color: black;
+            padding: 5px 20px;
+        }
+
+        input {
+            margin: 5px;
+        }
+    </style>
+    <div class="col-sm-12">
+
+        <input type="hidden" value="@ViewBag.PerfilUsuario" id="hdnPerfil" />
+        <input type="hidden" value="@ViewBag.VoluntarioMasculinoId" id="hdnVoluntarioMasculinoId" />
+
+        <form asp-action="Edit" method="post" id="formMasculinoCadastro">
+            <div class="page-header card">
+                <div class="card-block">
+                    <h5 class="m-b-10">Voluntário Masculino</h5>
+                    <ul class="breadcrumb-title b-t-default p-t-10">
+                        <li class="breadcrumb-item">
+                            <a href="\Home\index"> <i class="fa fa-home"></i> </a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="\VoluntariosMasculino\index">Voluntário Masculino</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="alert alert-warning background-danger" role="alert" id="alertNome" style="display:none">
+                <strong>Atenção!</strong> O campo Nome é obrigatório!
+            </div>
+            <div class="alert alert-warning background-danger" role="alert" id="alertClasseSocial" style="display:none">
+                <strong>Atenção!</strong> O campo Classe Social é obrigatório!
+            </div>
+            <div class="alert alert-warning background-danger" role="alert" id="alertCPF" style="display:none">
+                <strong>Atenção!</strong> O campo CPF é obrigatório!
+            </div>
+            <div class="alert alert-warning background-danger" role="alert" id="alertRG" style="display:none">
+                <strong>Atenção!</strong> O campo RG é obrigatório!
+            </div>
+            <div class="alert alert-warning background-danger" role="alert" id="alertDataNascimento" style="display:none">
+                <strong>Atenção!</strong> O campo Data de Nascimento é obrigatório!
+            </div>
+            <div class="alert alert-danger background-danger" role="alert" id="alertSalvar" style="display:none">
+                <strong>Atenção!</strong> Erro ao salvar Voluntário, tente novamente!
+            </div>
+
+            <div id="accordion">
+
+                <div class="card">
+                    <div class="accordion-heading" role="tab" id="headingOne">
+                        <h3 class="card-title accordion-title">
+                            <a class="accordion-msg" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Dados Cadastrais
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="card-block">
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2 color-warning">Dados Obrigatórios</legend>
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <div class="form-group">
+                                                <label>Nome</label>
+                                                <input style="display:none" asp-for="MasculinoCadastroId" class="form-control" value="@Model.MasculinoCadastroId" type="text" id="txtMasculinoCadastroId" />
+
+                                                <input asp-for="CadastroNome" name="CadastroNome" maxlength="100" class="form-control" type="text" id="txtNome" />
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Data de Nascimento</label>
+                                                <input asp-for="CadastroDataNascimento" name="CadastroDataNascimento" class="form-control" onblur="calculaIdade()" type="date" id="dtDataNascimento" maxlength="10" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <div class="form-group">
+                                                <label>Idade</label>
+                                                <input asp-for="CadastroIdade" name="CadastroIdade" class="form-control" id="txtIdade" type="text" readonly maxlength="3" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>CPF</label>
+                                                <input asp-for="CPF" name="CPF" class="form-control" type="text" id="txtCPF" maxlength="14" onkeypress="$(this).mask('000.000.000-00');" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>RG</label>
+                                                <input asp-for="CadastroRG" name="CadastroRG" class="form-control" id="txtRG" type="text" maxlength="15" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>Classe Social</label>
+                                                <select asp-for="CadastroClasseSocial" name="CadastroClasseSocial" id="cboClasseSocial" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="A">A</option>
+                                                    <option value="B1">B1</option>
+                                                    <option value="B2">B2</option>
+                                                    <option value="C1">C1</option>
+                                                    <option value="C2">C2</option>
+                                                    <option value="D-E">D-E</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr />
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Telefones</legend>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Celular</label>
+                                                <input asp-for="TelefoneCelular" name="TelefoneCelular" onkeypress="$(this).mask('(00) 0000-00009')" id="txtCelular" type="text" class="form-control telphone_with_code2" maxlength="15" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Whatsapp</label>
+                                                <input asp-for="Whatsapp" name="Whatsapp" onkeypress="$(this).mask('(00) 0000-00009')" id="txtWhatsapp" type="text" class="form-control telphone_with_code2" maxlength="15" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Residencial</label>
+                                                <input asp-for="TelefoneResidencial" name="TelefoneResidencial" onkeypress="$(this).mask('(00) 0000-0000')" type="text" class="form-control telphone_with_code" id="txtResidencial" maxlength="15" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Comercial</label>
+                                                <input asp-for="TelefoneComercialRecado" name="TelefoneComercialRecado" onkeypress="$(this).mask('(00) 0000-0000')" type="text" class="form-control telphone_with_code" id="txtComercial" maxlength="15" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr />
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Informações Saúde</legend>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label>Capacidade de sentir cheiro é normal?</label>
+                                                <div class="form-radio">
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="CapacidadeSentirCheiroNormal" name="CapacidadeSentirCheiroNormal" value="1" data-bv-field="member">
+                                                            <i class="helper"></i>Sim
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="CapacidadeSentirCheiroNormal" name="CapacidadeSentirCheiroNormal" value="0" data-bv-field="member">
+                                                            <i class="helper"></i>Não
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>Diabético?</label>
+                                                <div class="form-radio">
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="Diabetico" name="Diabetico" value="1" data-bv-field="member">
+                                                            <i class="helper"></i>Sim
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="Diabetico" name="Diabetico" value="0" data-bv-field="member">
+                                                            <i class="helper"></i>Não
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Fumante?</label>
+                                                <div class="form-radio">
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="Fumante" name="Fumante" value="1" data-bv-field="member">
+                                                            <i class="helper"></i>Sim
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="Fumante" name="Fumante" value="0" data-bv-field="member">
+                                                            <i class="helper"></i>Não
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Alergia?</label>
+                                                <div class="form-radio">
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="Alergia" name="Alergia" value="1" data-bv-field="member">
+                                                            <i class="helper"></i>Sim
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="Alergia" name="Alergia" value="0" data-bv-field="member">
+                                                            <i class="helper"></i>Não
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="form-group">
+                                                <label>Qual?</label>
+                                                <input asp-for="AlergiaQual" name="AlergiaQual" class="form-control" type="text" maxlength="100" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr />
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Informações Complementares</legend>
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <div class="form-group">
+                                                <label>Logradouro</label>
+                                                <input asp-for="Logradouro" name="Logradouro" class="form-control" type="text" maxlength="100" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <div class="form-group">
+                                                <label>Número</label>
+                                                <input asp-for="Numero" name="Numero" class="form-control" type="number" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>Bairro</label>
+                                                <input asp-for="Bairro" name="Bairro" class="form-control" type="text" maxlength="50" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label>Cidade</label>
+                                                <input asp-for="Cidade" name="Cidade" class="form-control" type="text" maxlength="50" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <div class="form-group">
+                                                <label>UF</label>
+                                                <input asp-for="UF" name="UF" class="form-control" type="text" maxlength="2" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>Complemento</label>
+                                                <input asp-for="Complemento" name="Complemento" class="form-control" type="text" maxlength="100" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>CEP</label>
+                                                <input asp-for="CEP" name="CEP" maxlength="10" class="form-control" type="text" onkeypress="$(this).mask('00.000-000')" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Profissão</label>
+                                                <input asp-for="Profissao" name="Profissao" class="form-control" type="text" maxlength="100" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Nome da Empresa</label>
+                                                <input asp-for="NomeDaEmpresa" name="NomeDaEmpresa" class="form-control" type="text" maxlength="100" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Ensino Fundamental</label>
+                                                <div class="form-radio">
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="EnsinoFundamentalCompleto" name="EnsinoFundamentalCompleto" value="1" data-bv-field="member">
+                                                            <i class="helper"></i>Completo
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="EnsinoFundamentalCompleto" name="EnsinoFundamentalCompleto" value="0" data-bv-field="member">
+                                                            <i class="helper"></i>Incompleto
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Ensino Médio</label>
+                                                <div class="form-radio">
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="EnsinoMedioCompleto" name="EnsinoMedioCompleto" value="1" data-bv-field="member">
+                                                            <i class="helper"></i>Completo
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="EnsinoMedioCompleto" name="EnsinoMedioCompleto" value="0" data-bv-field="member">
+                                                            <i class="helper"></i>Incompleto
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Ensino Superior</label>
+                                                <div class="form-radio">
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="EnsinoSuperiorCompleto" name="EnsinoSuperiorCompleto" value="1" data-bv-field="member">
+                                                            <i class="helper"></i>Completo
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="EnsinoSuperiorCompleto" name="EnsinoSuperiorCompleto" value="0" data-bv-field="member">
+                                                            <i class="helper"></i>Incompleto
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Ensino Pós-Graduação</label>
+                                                <div class="form-radio">
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="EnsinoPosGraduacaoCompleta" name="EnsinoPosGraduacaoCompleta" value="1" data-bv-field="member">
+                                                            <i class="helper"></i>Completo
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio radiofill radio-primary radio-inline">
+                                                        <label>
+                                                            <input type="radio" asp-for="EnsinoPosGraduacaoCompleta" name="EnsinoPosGraduacaoCompleta" value="0" data-bv-field="member">
+                                                            <i class="helper"></i>Incompleto
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr />
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Observações</legend>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Primeira</label>
+                                                <textarea asp-for="CadastroObsGerais" name="CadastroObsGerais" rows="5" cols="5" class="form-control" placeholder="Observações Gerais" id="txtObservacoesGerais" maxlength="200"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Segunda</label>
+                                                <textarea asp-for="CadastroObs1" name="CadastroObs1" rows="5" cols="5" class="form-control" placeholder="Observações 1" id="txtObservacoes1" maxlength="200"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Terceira</label>
+                                                <textarea asp-for="CadastroObs2" name="CadastroObs2" rows="5" cols="5" class="form-control" placeholder="Observações 2" id="txtObservacoes2" maxlength="200"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Quarta</label>
+                                                <textarea asp-for="CadastroObs3" name="CadastroObs3" rows="5" cols="5" class="form-control" placeholder="Observações 3" id="txtObservacoes3" maxlength="200"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr />
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Filho</legend>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Data de Nascimento</label>
+                                                <input asp-for="FilhosDataNascimento1" name="FilhosDataNascimento1" class="form-control" type="date" id="dtDataNascimentoFilho" maxlength="10" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Sexo</label>
+                                                <select asp-for="FilhosSexo1" id="FilhosSexo1" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="F">Feminino</option>
+                                                    <option value="M">Masculino</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Data de Nascimento</label>
+                                                <input asp-for="FilhosDataNascimento2" name="FilhosDataNascimento2" class="form-control" type="date" id="dtDataNascimentoFilho" maxlength="10" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Sexo</label>
+                                                <select asp-for="FilhosSexo2" id="FilhosSexo2" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="F">Feminino</option>
+                                                    <option value="M">Masculino</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Data de Nascimento</label>
+                                                <input asp-for="FilhosDataNascimento3" name="FilhosDataNascimento3" class="form-control" type="date" id="dtDataNascimentoFilho" maxlength="10" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Sexo</label>
+                                                <select asp-for="FilhosSexo3" id="FilhosSexo3" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="F">Feminino</option>
+                                                    <option value="M">Masculino</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Data de Nascimento</label>
+                                                <input asp-for="FilhosDataNascimento4" name="FilhosDataNascimento4" class="form-control" type="date" id="dtDataNascimentoFilho" maxlength="10" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Sexo</label>
+                                                <select asp-for="FilhosSexo4" id="FilhosSexo4" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="F">Feminino</option>
+                                                    <option value="M">Masculino</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Data de Nascimento</label>
+                                                <input asp-for="FilhosDataNascimento5" name="FilhosDataNascimento5" class="form-control" type="date" id="dtDataNascimentoFilho" maxlength="10" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Sexo</label>
+                                                <select asp-for="FilhosSexo5" id="FilhosSexo5" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="F">Feminino</option>
+                                                    <option value="M">Masculino</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Data de Nascimento</label>
+                                                <input asp-for="FilhosDataNascimento6" name="FilhosDataNascimento6" class="form-control" type="date" id="dtDataNascimentoFilho" maxlength="10" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Sexo</label>
+                                                <select asp-for="FilhosSexo6" id="FilhosSexo6" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="F">Feminino</option>
+                                                    <option value="M">Masculino</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="accordion-heading" role="tab" id="headingTwo">
+                        <h3 class="card-title accordion-title">
+                            <a class="accordion-msg" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Produtos e Hábitos de Consumo
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="card-block">
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Sabonete Corporal</legend>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="SaboneteCorporalBarra" name="SaboneteCorporalBarra">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Barra</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="SaboneteCorporalLiquido" name="SaboneteCorporalLiquido">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Líquido</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr>
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Sabonete Facial</legend>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="SaboneteFacialBarra" name="SaboneteFacialBarra">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Barra</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="SaboneteFacialLiquido" name="SaboneteFacialLiquido">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Líquido</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="SaboneteFacialEsfoliante" name="SaboneteFacialEsfoliante">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Esfoliante</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-2">
+                                                <label>
+                                                    <input type="checkbox" asp-for="SaboneteFacialEspuma" name="SaboneteFacialEspuma">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Espuma</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="checkbox-fade fade-in-primary; col-md-12">
+                                                <label>
+                                                    <input type="checkbox" asp-for="SaboneteFacialGel" name="SaboneteFacialGel">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Gel</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr>
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Bronzeador</legend>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="checkbox-fade fade-in-primary; col-md-12">
+                                                <label>
+                                                    <input type="checkbox" asp-for="Bronzeador" name="Bronzeador">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Óleo Corporal</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr>
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Higiene Bucal</legend>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="HigieneBucalCremeDental" name="HigieneBucalCremeDental">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Creme Dental</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="HigieneBucalEscovaDental" name="HigieneBucalEscovaDental">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Escova Dental</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="HigieneBucalFioDental" name="HigieneBucalFioDental">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Fio Dental</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-2">
+                                                <label>
+                                                    <input type="checkbox" asp-for="HigieneBucalEnxaguanteBucal" name="HigieneBucalEnxaguanteBucal">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Enxaguante Bucal</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr>
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Desodorante Corporal</legend>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="DesodoranteCorporalAerosol" name="DesodoranteCorporalAerosol">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Aerosol</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="DesodoranteCreme" name="DesodoranteCreme">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Creme</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="DesodoranteRollon" name="DesodoranteRollon">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Roll-on</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-2">
+                                                <label>
+                                                    <input type="checkbox" asp-for="DesodoranteSpray" name="DesodoranteSpray">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Spray</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr>
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Hidratante</legend>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="HidratanteCorporal" name="HidratanteCorporal">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Corporal</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="HidratanteFacial" name="HidratanteFacial">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Facial</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="HidratanteMaos" name="HidratanteMaos">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Mãos</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-2">
+                                                <label>
+                                                    <input type="checkbox" asp-for="HidratantePes" name="HidratantePes">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Pés</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="HidratanteParaBanho" name="HidratanteParaBanho">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Para Banho</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="HidratanteOleoCorporal" name="HidratanteOleoCorporal">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Óleo Corporal</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr>
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Produtos para Cabelo</legend>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosParaCabeloShampoo" name="ProdutosParaCabeloShampoo">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Shampoo</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosParaCabeloCondicionador" name="ProdutosParaCabeloCondicionador">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Condicionador</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosParaCabeloShampooAntiCaspa" name="ProdutosParaCabeloShampooAntiCaspa">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Shampoo Anti-caspa</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-2">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosParaCabeloFinalizadores" name="ProdutosParaCabeloFinalizadores">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Finalizadores</span>
+                                                </label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosParaCabeloCondicionadorAntiCaspa" name="ProdutosParaCabeloCondicionadorAntiCaspa">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Condicionador Anti-caspa</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosParaCabeloMascaraTratamento" name="ProdutosParaCabeloMascaraTratamento">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Máscara Tratamento</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosParaCabeloCremePentear" name="ProdutosParaCabeloCremePentear">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Creme Pentear</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-2">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosParaCabeloGel" name="ProdutosParaCabeloGel">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Gel</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr>
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Protetor Solar</legend>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProtetorSolarCorporal" name="ProtetorSolarCorporal">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Corporal</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProtetorSolarFacial" name="ProtetorSolarFacial">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Facial</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProtetorSolarLabial" name="ProtetorSolarLabial">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Labial</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr>
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Produtos Pós Barba</legend>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosPosBarbaLocao" name="ProdutosPosBarbaLocao">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Loção</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosPosbarbaBalsamo" name="ProdutosPosbarbaBalsamo">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Bálsamo</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosPosBarbaGel" name="ProdutosPosBarbaGel">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Gel</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <hr>
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Produtos Pré Barba</legend>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosPreBarbaGelBarbear" name="ProdutosPreBarbaGelBarbear">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Gel Barbear</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosPreBarbaCremeBarbear" name="ProdutosPreBarbaCremeBarbear">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Creme Barbear</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosPreBarbaEspumaBarbear" name="ProdutosPreBarbaEspumaBarbear">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Espuma Barbear</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox-fade fade-in-primary; col-md-2">
+                                                <label>
+                                                    <input type="checkbox" asp-for="ProdutosPreBarbaSabonete" name="ProdutosPreBarbaSabonete">
+                                                    <span class="cr">
+                                                        <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                    </span>
+                                                    <span>Sabonete</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Outros</label>
+                                                <input class="form-control" type="text" asp-for="ProdutosPreBarbaOutros" maxlength="100" name="ProdutosPreBarbaOutros" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="accordion-heading" role="tab" id="headingTree">
+                        <h3 class="card-title accordion-title">
+                            <a class="accordion-msg" data-toggle="collapse" data-parent="#accordion" href="#collapseTree" aria-expanded="false" aria-controls="collapseTree">
+                                Avaliação Técnica
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapseTree" class="collapse" aria-labelledby="headingTree" data-parent="#accordion">
+                        <div class="card-body">
+                            <fieldset class="border p-2">
+                                <legend class="col-form-label pt-2">Cabelo</legend>
+                                <div class="card-block">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <fieldset class="border p-2">
+                                                    <legend class="col-form-label pt-2">Mega Hair ou Aplique</legend>
+                                                    <div class="form-radio">
+                                                        <div class="radio radiofill radio-primary radio-inline">
+                                                            <label>
+                                                                <input type="radio" asp-for="DetalhesCabeloMegaHairOuAplique" name="DetalhesCabeloMegaHairOuAplique" value="1" data-bv-field="member">
+                                                                <i class="helper"></i>Sim
+                                                            </label>
+                                                        </div>
+                                                        <div class="radio radiofill radio-primary radio-inline">
+                                                            <label>
+                                                                <input type="radio" asp-for="DetalhesCabeloMegaHairOuAplique" name="DetalhesCabeloMegaHairOuAplique" value="0" data-bv-field="member">
+                                                                <i class="helper"></i>Não
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <fieldset class="border p-2">
+                                                    <legend class="col-form-label pt-2">Luzes ou Alisamento</legend>
+                                                    <div class="form-radio">
+                                                        <div class="radio radiofill radio-primary radio-inline">
+                                                            <label>
+                                                                <input type="radio" asp-for="CabeloTransfLuzesOuAlisamento" name="CabeloTransfLuzesOuAlisamento" value="1" data-bv-field="member">
+                                                                <i class="helper"></i>Sim
+                                                            </label>
+                                                        </div>
+                                                        <div class="radio radiofill radio-primary radio-inline">
+                                                            <label>
+                                                                <input type="radio" asp-for="CabeloTransfLuzesOuAlisamento" name="CabeloTransfLuzesOuAlisamento" value="0" data-bv-field="member">
+                                                                <i class="helper"></i>Não
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <fieldset class="border p-2">
+                                                    <legend class="col-form-label pt-2">Reflexo</legend>
+                                                    <div class="form-radio">
+                                                        <div class="radio radiofill radio-primary radio-inline">
+                                                            <label>
+                                                                <input type="radio" asp-for="CabeloTransfDescoloracaoReflexoLuzesMechas" name="CabeloTransfDescoloracaoReflexoLuzesMechas" value="1" data-bv-field="member">
+                                                                <i class="helper"></i>Sim
+                                                            </label>
+                                                        </div>
+                                                        <div class="radio radiofill radio-primary radio-inline">
+                                                            <label>
+                                                                <input type="radio" asp-for="CabeloTransfDescoloracaoReflexoLuzesMechas" name="CabeloTransfDescoloracaoReflexoLuzesMechas" value="0" data-bv-field="member">
+                                                                <i class="helper"></i>Não
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Cor Natural da Raiz</label>
+                                                <select asp-for="DetalhesCabeloCorNatural" id="DetalhesCabeloCorNatural" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="1">1.0</option>
+                                                    <option value="2">2.0</option>
+                                                    <option value="3">3.0</option>
+                                                    <option value="4">4.0</option>
+                                                    <option value="5">5.0</option>
+                                                    <option value="6">6.0</option>
+                                                    <option value="7">7.0</option>
+                                                    <option value="8">8.0</option>
+                                                    <option value="9">9.0</option>
+                                                    <option value="10">10.0</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Cor Intermediária</label>
+                                                <select asp-for="DetalhesCabeloCorIntermedio" id="DetalhesCabeloCorIntermedio" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="1">1.0</option>
+                                                    <option value="2">2.0</option>
+                                                    <option value="3">3.0</option>
+                                                    <option value="4">4.0</option>
+                                                    <option value="5">5.0</option>
+                                                    <option value="6">6.0</option>
+                                                    <option value="7">7.0</option>
+                                                    <option value="8">8.0</option>
+                                                    <option value="9">9.0</option>
+                                                    <option value="10">10.0</option>
+                                                    <option value="10">12.0</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Nuance</label>
+                                                <select asp-for="DetalhesCabeloNuance" id="DetalhesCabeloNuance" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Cor das Pontas</label>
+                                                <select asp-for="DetalhesCabeloCorPontas" id="DetalhesCabeloCorPontas" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="1">1.0</option>
+                                                    <option value="2">2.0</option>
+                                                    <option value="3">3.0</option>
+                                                    <option value="4">4.0</option>
+                                                    <option value="5">5.0</option>
+                                                    <option value="6">6.0</option>
+                                                    <option value="7">7.0</option>
+                                                    <option value="8">8.0</option>
+                                                    <option value="9">9.0</option>
+                                                    <option value="10">10.0</option>
+                                                    <option value="12.0">12.0</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Fios Brancos%</label>
+                                                <select asp-for="DetalhesCabeloFiosBrancosPercentual" id="DetalhesCabeloFiosBrancosPercentual" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="0">0%</option>
+                                                    <option value="1_25">até 25%</option>
+                                                    <option value="26_50">26% à 50%</option>
+                                                    <option value="51_75">51% à 75%</option>
+                                                    <option value="76_100">76% à 100%</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Comprimento</label>
+                                                <select asp-for="DetalhesCabeloComprimento" id="DetalhesCabeloComprimento" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="Calvo">Calvo</option>
+                                                    <option value="Curto">Curto (até a nuca)</option>
+                                                    <option value="Medio">Médio (até os ombros)</option>
+                                                    <option value="Longo">Longo (abaixo dos ombros)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Espessura</label>
+                                                <select asp-for="DetalhesCabeloEspessura" id="DetalhesCabeloEspessura" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="Fino">Fino</option>
+                                                    <option value="Medio">Médio</option>
+                                                    <option value="Grosso">Grosso</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Atual Curvatura</label>
+                                                <select asp-for="DetalhesCabeloAtualCurvatura" id="DetalhesCabeloAtualCurvatura" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="Liso">Liso</option>
+                                                    <option value="Ondulado">Ondulado</option>
+                                                    <option value="Cacheado">Cacheado</option>
+                                                    <option value="Crespo">Crespo</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Condição</label>
+                                                <select asp-for="DetalhesCabeloCondicao" id="DetalhesCabeloCondicao" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="Normal">Normal</option>
+                                                    <option value="Seco">Seco</option>
+                                                    <option value="Oleoso">Oleoso</option>
+                                                    <option value="Misto">Misto</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Frequência Lavagem</label>
+                                                <select asp-for="DetalhesCabeloFrequenciaLavagemCabelo" id="DetalhesCabeloFrequenciaLavagemCabelo" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="1">1 vez</option>
+                                                    <option value="2">2 vezes</option>
+                                                    <option value="3">3 vezes</option>
+                                                    <option value="4">4 vezes</option>
+                                                    <option value="5">5 vezes</option>
+                                                    <option value="6">6 vezes</option>
+                                                    <option value="7">7 vezes</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <fieldset class="border p-2">
+                                        <legend class="col-form-label pt-2">Transformação Química</legend>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="checkbox-fade fade-in-primary; col-md-4">
+                                                    <label>
+                                                        <input type="checkbox" asp-for="CabeloTransfQuimicaNaoVirgemNatural" name="CabeloTransfQuimicaNaoVirgemNatural">
+                                                        <span class="cr">
+                                                            <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                        </span>
+                                                        <span>Não/Cabelo Virgem/Natural</span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                    <label>
+                                                        <input type="checkbox" asp-for="CabeloTransfColoracaoTonalizante" name="CabeloTransfColoracaoTonalizante">
+                                                        <span class="cr">
+                                                            <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                        </span>
+                                                        <span>Coloração/Tonalizante</span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-fade fade-in-primary; col-md-4">
+                                                    <label>
+                                                        <input type="checkbox" asp-for="CabeloTransfPermanente" name="CabeloTransfPermanente">
+                                                        <span class="cr">
+                                                            <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                        </span>
+                                                        <span>Permanente</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="checkbox-fade fade-in-primary; col-md-4">
+                                                    <label>
+                                                        <input type="checkbox">
+                                                        <span class="cr">
+                                                            <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                        </span>
+                                                        <span>Descoloração/Reflexo/Luzes/Mechas</span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-fade fade-in-primary; col-md-3">
+                                                    <label>
+                                                        <input type="checkbox" asp-for="CabeloTransfEscovaProgressiva" name="CabeloTransfEscovaProgressiva">
+                                                        <span class="cr">
+                                                            <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                        </span>
+                                                        <span>Escova Progressiva</span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-fade fade-in-primary; col-md-4">
+                                                    <label>
+                                                        <input type="checkbox">
+                                                        <span class="cr">
+                                                            <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                        </span>
+                                                        <span>Relaxamento/Alisamento</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </fieldset>
+                            <div class="card-block">
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Tipo de Pele</legend>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Fitzpatrick</label>
+                                                <select asp-for="TipoDePeleFototipo" id="TipoDePeleFototipo" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="I">I</option>
+                                                    <option value="II">II</option>
+                                                    <option value="III">III</option>
+                                                    <option value="IV">IV</option>
+                                                    <option value="V">V</option>
+                                                    <option value="VI">VI</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Rosto</label>
+                                                <select asp-for="TipodePeleRosto" id="TipodePeleRosto" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="Normal">Normal</option>
+                                                    <option value="Seca">Seca</option>
+                                                    <option value="Mista">Mista</option>
+                                                    <option value="Oleosa">Oleosa</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Braços e Pernas</label>
+                                                <select asp-for="TipoDePeleBracosPernas" id="TipoDePeleBracosPernas" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="Normal">Normal</option>
+                                                    <option value="Seca">Seca</option>
+                                                    <option value="Mista">Mista</option>
+                                                    <option value="Oleosa">Oleosa</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Mãos e Pés</label>
+                                                <select asp-for="TipoDePeleMaosPe" id="TipoDePeleMaosPe" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="Normal">Normal</option>
+                                                    <option value="Seca">Seca</option>
+                                                    <option value="Mista">Mista</option>
+                                                    <option value="Oleosa">Oleosa</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <label>Ccostas e Peitoral</label>
+                                                <select asp-for="TipoDePeloCostasPeitoral" id="TipoDePeloCostasPeitoral" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="Normal">Normal</option>
+                                                    <option value="Seca">Seca</option>
+                                                    <option value="Mista">Mista</option>
+                                                    <option value="Oleosa">Oleosa</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Observações</label>
+                                                <textarea rows="1" cols="5" class="form-control" placeholder="Observações" asp-for="TipoDePeloObservacoes" maxlength="100"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            <div class="card-block">
+                                <fieldset class="border p-2">
+                                    <legend class="col-form-label pt-2">Unhas</legend>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>Comprimento das Unhas</label>
+                                                <select asp-for="CondicoesDasUnhasComprimento" id="CondicoesDasUnhasComprimento" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="Curta">Curta</option>
+                                                    <option value="Média">Média</option>
+                                                    <option value="Longa">Longa</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>Espessura das Unhas</label>
+                                                <select asp-for="CondicoesDasUnhasEspessura" id="CondicoesDasUnhasEspessura" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="Fina">Fina</option>
+                                                    <option value="Normal">Normal</option>
+                                                    <option value="Espessa">Espessa</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>Cutículas</label>
+                                                <select asp-for="CondicoesDasUnhasCuticulasIntegrasRemovidas" id="CondicoesDasUnhasCuticulasIntegrasRemovidas" class="form-control form-control-bold">
+                                                    <option value="0">-- selecione --</option>
+                                                    <option value="Íntegras">Íntegras</option>
+                                                    <option value="Removidas">Removidas</option>
+                                                    <option value="Alterações">Alterações</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Quais</label>
+                                                <input class="form-control" asp-for="CondicoesDasUnhasObservacao" name="CondicoesDasUnhasObservacao" type="text" maxlength="100" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <fieldset class="border p-2">
+                                                    <legend class="col-form-label pt-2">Uso Frequente de Esmaltes</legend>
+                                                    <div class="form-radio">
+                                                        <div class="radio radiofill radio-primary radio-inline">
+                                                            <label>
+                                                                <input type="radio" asp-for="CondicoesDasUnhasUsoFrequenteEsmalte" name="CondicoesDasUnhasUsoFrequenteEsmalte" value="1" data-bv-field="member">
+                                                                <i class="helper"></i>Sim
+                                                            </label>
+                                                        </div>
+                                                        <div class="radio radiofill radio-primary radio-inline">
+                                                            <label>
+                                                                <input type="radio" asp-for="CondicoesDasUnhasUsoFrequenteEsmalte" name="CondicoesDasUnhasUsoFrequenteEsmalte" value="0" data-bv-field="member">
+                                                                <i class="helper"></i>Não
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <fieldset class="border p-2">
+                                                    <legend class="col-form-label pt-2">Sudorese (Excesso de umidade nas mãos)</legend>
+                                                    <div class="form-radio">
+                                                        <div class="radio radiofill radio-primary radio-inline">
+                                                            <label>
+                                                                <input type="radio" asp-for="CondicoesDasUnhasSudorese" name="CondicoesDasUnhasSudorese" value="1" data-bv-field="member">
+                                                                <i class="helper"></i>Sim
+                                                            </label>
+                                                        </div>
+                                                        <div class="radio radiofill radio-primary radio-inline">
+                                                            <label>
+                                                                <input type="radio" asp-for="CondicoesDasUnhasSudorese" name="CondicoesDasUnhasSudorese" value="0" data-bv-field="member">
+                                                                <i class="helper"></i>Não
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pull-xl-12">
+                <div class="col-xl-12" style="margin-right: 10px">
+                    <div class="form-group">
+                        <a href="#" class="voluntariosSalvar btn btn-block btn-primary" data-toggle="tooltip" data-placement="top">Salvar</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        var perfil = $('#hdnPerfil').val();
+        if (perfil == 'Consulta') {
+            $('input').prop('disabled', true);
+            $('select').prop('disabled', true);
+            $('textarea').prop('disabled', true);
+            $('#btnSalvar').css('visibility', 'hidden');
+        }
+    })
+        .on('click', '.voluntariosSalvar', function () {
+            var btn = $(this),
+                _id = btn[0].id;
+            Validar();
+        });
+
+    function Validar()
+    {
+
+        var result = true;
+        $('#alertNome').css('display', 'none');
+        $('#alertClasseSocial').css('display', 'none');
+        $('#alertCPF').css('display', 'none');
+        $('#alertRG').css('display', 'none');
+        $('#alertDataNascimento').css('display', 'none');
+
+        var nome = $('#txtNome').val();
+        if (nome == "") {
+            $('#alertNome').css('display', 'block');
+            result = false;
+        }
+        var classeSocial = $('#cboClasseSocial').val();
+        if (classeSocial == "0") {
+            $('#alertClasseSocial').css('display', 'block');
+            result = false;
+        }
+        var CPF = $('#txtCPF').val();
+        if (CPF == "") {
+            $('#alertCPF').css('display', 'block');
+            result = false;
+        }
+        var RG = $('#txtRG').val();
+        if (RG == "") {
+            $('#alertRG').css('display', 'block');
+            result = false;
+        }
+        var DataNascimento = $('#dtDataNascimento').val();
+        if (DataNascimento == "") {
+            $('#alertDataNascimento').css('display', 'block');
+            result = false;
+        }
+
+        if (result == false) {
+            $('html,body').scrollTop(0);
+        }
+
+        if (result)
+        {
+            Salvar();
+        }
+    }
+
+    function Salvar()
+    {
+        var id = $("#hdnVoluntarioMasculinoId").val();
+        var json = $("#formMasculinoCadastro").serialize();
+
+        $.ajax({
+            url: "/VoluntariosMasculino/Edit/" + id,
+            type: "POST",
+            data: json,
+            dataType: "html",
+            success: function (data) {
+                swal({
+                    title: "Alterado!",
+                    text: "Voluntário " + data + " alterado com sucesso!",
+                    type: "success",
+                },
+                    function () {
+                        window.location.href = '/VoluntariosMasculino/Index/';
+                    }
+                );
+            },
+            error: function (data) {
+                swal("Oops", "Não foi possível conectar ao servidor!", "error");
+            }
+        });
+    }
+
+    function calculaIdade() {
+        var date = $('#dtDataNascimento').val();
+        var dataaniversario = date.split('-');
+        var d = new Date,
+            ano_atual = d.getFullYear(),
+            mes_atual = d.getMonth() + 1,
+            dia_atual = d.getDate(),
+
+            ano_aniversario = +dataaniversario[0],
+            mes_aniversario = +dataaniversario[1],
+            dia_aniversario = +dataaniversario[2],
+
+            quantos_anos = ano_atual - ano_aniversario;
+
+        if (mes_atual < mes_aniversario || mes_atual == mes_aniversario && dia_atual < dia_aniversario) {
+            quantos_anos--;
+        }
+
+        $("#txtIdade").val(quantos_anos);
+    }
+
+</script>

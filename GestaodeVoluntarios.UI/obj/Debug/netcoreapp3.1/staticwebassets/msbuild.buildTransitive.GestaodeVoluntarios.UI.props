@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\GestaodeVoluntarios.UI.props" />
+</Project>

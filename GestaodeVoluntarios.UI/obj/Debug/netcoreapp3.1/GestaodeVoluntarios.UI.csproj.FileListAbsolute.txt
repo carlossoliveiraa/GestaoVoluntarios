@@ -1,0 +1,634 @@
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.StaticWebAssets.xml
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.exe
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.deps.json
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.runtimeconfig.json
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.runtimeconfig.dev.json
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.pdb
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.Views.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.Views.pdb
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\staticwebassets\GestaodeVoluntarios.UI.StaticWebAssets.Manifest.cache
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\staticwebassets\GestaodeVoluntarios.UI.StaticWebAssets.xml
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorAssemblyInfo.cache
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorAssemblyInfo.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.AssemblyInfoInputs.cache
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.AssemblyInfo.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.TagHelpers.input.cache
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.TagHelpers.output.cache
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorCoreGenerate.cache
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\PerfilUsuario\Index.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Menu.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosEstudos\Index.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosFemininoInativos\Index.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosFeminino\Create.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosFeminino\Edit.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosFeminino\Index.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosMasculinoInativos\Index.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosMasculino\Create.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosMasculino\Edit.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosMasculino\Index.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorTargetAssemblyInfo.cache
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorTargetAssemblyInfo.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.Views.pdb
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.csproj.CopyComplete
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.dll
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.pdb
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.csprojAssemblyReference.cache
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.StaticWebAssets.xml
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.exe
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.deps.json
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.runtimeconfig.json
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.runtimeconfig.dev.json
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.pdb
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.Views.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.Views.pdb
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.AssemblyInfoInputs.cache
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.AssemblyInfo.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.csproj.CoreCompileInputs.cache
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorAssemblyInfo.cache
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorAssemblyInfo.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.TagHelpers.input.cache
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.TagHelpers.output.cache
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorCoreGenerate.cache
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\PerfilUsuario\Index.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Menu.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosEstudos\Index.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosFemininoInativos\Index.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosFeminino\Create.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosFeminino\Edit.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosFeminino\Index.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosMasculinoInativos\Index.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosMasculino\Create.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosMasculino\Edit.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosMasculino\Index.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorTargetAssemblyInfo.cache
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorTargetAssemblyInfo.cs
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.Views.pdb
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.csproj.CopyComplete
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\staticwebassets\GestaodeVoluntarios.UI.StaticWebAssets.Manifest.cache
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\staticwebassets\GestaodeVoluntarios.UI.StaticWebAssets.xml
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.dll
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.pdb
+C:\Projeto\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.genruntimeconfig.cache
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\appsettings.json
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.StaticWebAssets.xml
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.exe
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.deps.json
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.runtimeconfig.json
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.runtimeconfig.dev.json
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.pdb
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.Views.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.Views.pdb
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\EntityFramework.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.csproj.AssemblyReference.cache
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.GeneratedMSBuildEditorConfig.editorconfig
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.AssemblyInfoInputs.cache
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.AssemblyInfo.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.csproj.CoreCompileInputs.cache
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.MvcApplicationPartsAssemblyInfo.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.MvcApplicationPartsAssemblyInfo.cache
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorAssemblyInfo.cache
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorAssemblyInfo.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\staticwebassets\GestaodeVoluntarios.UI.StaticWebAssets.Manifest.cache
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\staticwebassets\GestaodeVoluntarios.UI.StaticWebAssets.Pack.cache
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.GestaodeVoluntarios.UI.Microsoft.AspNetCore.StaticWebAssets.props
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.GestaodeVoluntarios.UI.props
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.GestaodeVoluntarios.UI.props
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.GestaodeVoluntarios.UI.props
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\staticwebassets\GestaodeVoluntarios.UI.StaticWebAssets.xml
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.TagHelpers.input.cache
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.TagHelpers.output.cache
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorCoreGenerate.cache
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\PerfilUsuario\Index.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Menu.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosEstudos\Index.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosFemininoInativos\Index.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosFeminino\Create.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosFeminino\Edit.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosFeminino\Index.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosMasculinoInativos\Index.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosMasculino\Create.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosMasculino\Edit.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\VoluntariosMasculino\Index.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorTargetAssemblyInfo.cache
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.RazorTargetAssemblyInfo.cs
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.Views.pdb
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.csproj.CopyComplete
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.dll
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.pdb
+E:\2021\Backups 2021\Projetos\GestaodeVoluntarios\GestaodeVoluntarios.UI\obj\Debug\netcoreapp3.1\GestaodeVoluntarios.UI.genruntimeconfig.cache
